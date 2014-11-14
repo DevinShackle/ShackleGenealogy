@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  background-color: darkgreen;
+  color: white;
+  margin: -58px;
+}
+
+
+.body {
+  margin-top: 70px;
+}
+
+.logo {
+  height: 300px;
+  float: left;
+}
+
+.carousel {
+  float: left;
+}
