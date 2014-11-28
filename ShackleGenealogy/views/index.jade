@@ -11,8 +11,35 @@ block content
     div.body
       img.logo(src = '/images/ShackleGenealogy_logo.png')
       div.carousel
-        p This is a testimonial!
+        div.carouselItem
+          div.testimonial
+            div.testimonialText
+              "I have done a lot of family research myself, but I got stuck on one limb of my tree. Donna has already gotten so much interesting new information for me that I know I'll ultimately be able to fill in the gaps. Check it out!"
+            div.testimonialCitation
+              p Jeannie W.
     div.footer
       div.menubar
+        ul.menuitems
+          li.about About
+          li.services Services
+          li.contact Contact
       div.selection
+        div.about
+          p Donna Shackle is a certified genealogical reseacher and is particularly skilled at finding distant connections to expand your family tree.
+        div.services
+          p Whether you are looking for a complete family tree, or just looking to add a branch or two, we offer competetive rates for research and creative presentation options.  
+        div.sale
+          h3 Black Friday Sale is ON! 50% OFF RESEARCH! 
+        div.contact
+          p If you'd be interested in learning more, please send an email to donna@shacklegenealogy.com
 
+
+//-
+script. 
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56931927-1', 'auto');
+  ga('send', 'pageview');
